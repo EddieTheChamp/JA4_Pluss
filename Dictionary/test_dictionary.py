@@ -11,7 +11,7 @@ def run_tests():
     
     # Test 1: Let's find Chromium Browser based on its JA4 alone
     # Found in ja4+_db.json
-    chromium_ja4 = "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+    chromium_ja4 = "t12d180700_4b22cbed5bed_2dae41c691ec"
     
     import json
     res1 = db_mode1.predict(ja4=chromium_ja4)
