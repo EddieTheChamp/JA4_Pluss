@@ -1,8 +1,11 @@
 import json
 import argparse
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import classification_report, ConfusionMatrixDisplay
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def plot_confusion_matrix(y_true, y_pred, model_name, top_n_classes=10):
     # Determine top classes
@@ -43,29 +46,34 @@ def plot_confusion_matrix(y_true, y_pred, model_name, top_n_classes=10):
     plt.tight_layout()
     
     filename = f"confusion_matrix_{model_name.replace(' ', '_')}.png"
-    plt.savefig(filename)
+    filepath = os.path.join(SCRIPT_DIR, filename)
+    plt.savefig(filepath)
     plt.close()
-    print(f"[{model_name}] Saved Confusion Matrix to {filename}")
+    print(f"[{model_name}] Saved Confusion Matrix to {filepath}")
 
-def plot_top_k(results):
+def plot_top_k(foxio_res, egenlagd_res, rf_res):
     models = ["foxio", "egenlagd", "random_forest"]
     labels = ["Top-1 Match", "Top-3 Match", "Top-5 Match"]
     
     scores = {}
-    for model in models:
+    for model_name, results_list in zip(models, [foxio_res, egenlagd_res, rf_res]):
         top1 = 0
         top3 = 0
         top5 = 0
-        total = len(results)
-        for r in results:
+        total = len(results_list)
+        for r in results_list:
             true_app = r["true_app"]
-            top_k_list = r["models"][model].get("top_k", [])
+            top_k_list = r.get("top_k", [])
             
             if true_app in top_k_list[:1]: top1 += 1
             if true_app in top_k_list[:3]: top3 += 1
             if true_app in top_k_list[:5]: top5 += 1
             
-        scores[model] = [top1/total*100, top3/total*100, top5/total*100]
+        scores[model_name] = [
+            (top1/total*100) if total > 0 else 0, 
+            (top3/total*100) if total > 0 else 0, 
+            (top5/total*100) if total > 0 else 0
+        ]
         
     x = np.arange(len(labels))
     width = 0.25
@@ -91,11 +99,12 @@ def plot_top_k(results):
                         textcoords="offset points",
                         ha='center', va='bottom', fontsize=9)
     plt.tight_layout()
-    plt.savefig('comparative_top_k_accuracy.png')
+    filepath = os.path.join(SCRIPT_DIR, 'comparative_top_k_accuracy.png')
+    plt.savefig(filepath)
     plt.close()
-    print("Saved Top-K comparative chart to comparative_top_k_accuracy.png")
+    print(f"Saved Top-K comparative chart to {filepath}")
 
-def plot_collision_matrix(results):
+def plot_collision_matrix(foxio_res, egenlagd_res, rf_res):
     models = ["foxio", "egenlagd", "random_forest"]
     display_names = ["Dictionary (FoxIO)", "Dictionary (Egenlagd)", "Random Forest"]
     
@@ -103,12 +112,12 @@ def plot_collision_matrix(results):
     collision_matches = []
     unknowns = []
 
-    for model in models:
+    for model_name, results_list in zip(models, [foxio_res, egenlagd_res, rf_res]):
         unique = 0
         collision = 0
         unknown = 0
-        for r in results:
-            matches = r["models"][model].get("matches_count", 0)
+        for r in results_list:
+            matches = r.get("matches_count", 0)
             if matches == 1:
                 unique += 1
             elif matches > 1:
@@ -117,9 +126,14 @@ def plot_collision_matrix(results):
                 unknown += 1
         
         total = unique + collision + unknown
-        unique_matches.append(unique/total*100)
-        collision_matches.append(collision/total*100)
-        unknowns.append(unknown/total*100)
+        if total > 0:
+            unique_matches.append(unique/total*100)
+            collision_matches.append(collision/total*100)
+            unknowns.append(unknown/total*100)
+        else:
+            unique_matches.append(0)
+            collision_matches.append(0)
+            unknowns.append(0)
         
     unique_matches = np.array(unique_matches)
     collision_matches = np.array(collision_matches)
@@ -145,37 +159,58 @@ def plot_collision_matrix(results):
             ax.text(i, unique_matches[i] + collision_matches[i]/2, f'{collision_matches[i]:.1f}%', ha='center', va='center', color='white', fontweight='bold')
 
     plt.tight_layout()
-    plt.savefig('comparative_collision_matrix.png')
+    filepath = os.path.join(SCRIPT_DIR, 'comparative_collision_matrix.png')
+    plt.savefig(filepath)
     plt.close()
-    print("Saved Comparative Collision Matrix to comparative_collision_matrix.png")
+    print(f"Saved Comparative Collision Matrix to {filepath}")
 
+def load_result_file(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Warning: Could not find {filepath}. Passing empty list.")
+        return []
 
-def run_reports(filepath):
-    print(f"Loading results from {filepath}...")
-    with open(filepath, 'r', encoding='utf-8') as f:
-        results = json.load(f)
+def run_reports(foxio_file, egenlagd_file, rf_file):
+    print("Loading component files...")
+    foxio_res = load_result_file(foxio_file)
+    egenlagd_res = load_result_file(egenlagd_file)
+    rf_res = load_result_file(rf_file)
 
-    print(f"Loaded {len(results)} evaluated samples.")
-    
-    y_true = [r["true_app"] for r in results]
+    # Use FoxIO file (or whichever is populated) as ground truth map if needed
+    baseline_res = foxio_res if foxio_res else (egenlagd_res if egenlagd_res else rf_res)
+    if not baseline_res:
+        print("ERROR: All three result files were empty or missing. Cannot generate graphs.")
+        return
+
+    print(f"Loaded {len(baseline_res)} evaluated samples.")
     
     # Generate Confusion Matrices for all 3
-    y_pred_foxio = [r["models"]["foxio"]["prediction"] for r in results]
-    plot_confusion_matrix(y_true, y_pred_foxio, "Dictionary_FoxIO")
+    if foxio_res:
+        y_true_foxio = [r["true_app"] for r in foxio_res]
+        y_pred_foxio = [r["prediction"] for r in foxio_res]
+        plot_confusion_matrix(y_true_foxio, y_pred_foxio, "Dictionary_FoxIO")
     
-    y_pred_egenlagd = [r["models"]["egenlagd"]["prediction"] for r in results]
-    plot_confusion_matrix(y_true, y_pred_egenlagd, "Dictionary_Egenlagd")
+    if egenlagd_res:
+        y_true_egenlagd = [r["true_app"] for r in egenlagd_res]
+        y_pred_egenlagd = [r["prediction"] for r in egenlagd_res]
+        plot_confusion_matrix(y_true_egenlagd, y_pred_egenlagd, "Dictionary_Egenlagd")
     
-    y_pred_rf = [r["models"]["random_forest"]["prediction"] for r in results]
-    plot_confusion_matrix(y_true, y_pred_rf, "Random_Forest")
+    if rf_res:
+        y_true_rf = [r["true_app"] for r in rf_res]
+        y_pred_rf = [r["prediction"] for r in rf_res]
+        plot_confusion_matrix(y_true_rf, y_pred_rf, "Random_Forest")
     
-    # Generate aggregate metrics for FoxIO and Custom Dictionaries
-    plot_top_k(results)
-    plot_collision_matrix(results)
+    # Generate aggregate metrics
+    plot_top_k(foxio_res, egenlagd_res, rf_res)
+    plot_collision_matrix(foxio_res, egenlagd_res, rf_res)
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate 3-Model JA4 Visualizations.")
-    parser.add_argument("--results_file", required=True, help="Path to the JSON results file")
+    parser.add_argument("--foxio_file", default=os.path.join(SCRIPT_DIR, "..", "Results", "dictionary_FoxIO_result.json"), help="Path to the FoxIO results")
+    parser.add_argument("--egenlagd_file", default=os.path.join(SCRIPT_DIR, "..", "Results", "dictionary_Egenlagd_result.json"), help="Path to the Egenlagd results")
+    parser.add_argument("--rf_file", default=os.path.join(SCRIPT_DIR, "..", "Results", "Random_Forest_result.json"), help="Path to the Random Forest results")
     
     args = parser.parse_args()
-    run_reports(args.results_file)
+    run_reports(args.foxio_file, args.egenlagd_file, args.rf_file)

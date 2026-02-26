@@ -1,32 +1,38 @@
 import json
 import os
+import argparse
+import pandas as pd
 from typing import Dict, Optional, Any
+from sklearn.model_selection import train_test_split
 
 class JA4PlusDatabase:
     """
     A dictionary matching model for JA4+ network fingerprints.
     
-    This class loads a local JSON database (ja4+_db.json) and builds an EXACT MATCH index 
+    This class loads a local JSON database and builds an EXACT MATCH index 
     based strictly on the selected experimental mode.
     """
-    
-    LOCAL_JSON_PATH = "ja4+_db.json"
 
-    def __init__(self, mode: str = "ja4_only"):
+    def __init__(self, mode: str = "ja4_only", db_path: str = "ja4+_db.json"):
         """
         Initialize the database for a specific experiment mode.
         
         Args:
-            mode (str): The experimental mode. Valid options are:
-                - "ja4_only" : Matches strictly using the JA4 string.
-                - "ja4_ja4s" : Matches strictly using a combined JA4 and JA4S string.
+            mode (str): The experimental mode. This dictates how strict the matching is.
+                - "ja4_only" : Matches strictly using ONLY the JA4 string (TCP/TLS properties).
+                               This is less specific but finds more generic matches.
+                - "ja4_ja4s" : Matches strictly using a combined JA4 (Client) AND JA4S (Server) string.
+                               This is highly specific to a particular client-server interaction.
                 - "ja4_ja4s_ja4ts" : Matches strictly using all three components combined.
+                               This is extremely rigid and will only match exact replicas of traffic.
+            db_path (str): The path to the JSON database file to load into memory.
         """
         valid_modes = ["ja4_only", "ja4_ja4s", "ja4_ja4s_ja4ts"]
         if mode not in valid_modes:
             raise ValueError(f"Invalid mode. Must be one of: {valid_modes}")
             
         self.mode = mode
+        self.db_path = db_path
         
         # This will hold our exact match index.
         # Key: The combined string based on 'mode' (e.g., "ja4_string" or "ja4_string|ja4s_string")
@@ -38,11 +44,11 @@ class JA4PlusDatabase:
         Loads the database from the local JSON file.
         Builds the internal index based on self.mode.
         """
-        if not os.path.exists(self.LOCAL_JSON_PATH):
-            raise FileNotFoundError(f"Database file not found: {self.LOCAL_JSON_PATH}")
+        if not os.path.exists(self.db_path):
+            raise FileNotFoundError(f"Database file not found: {self.db_path}")
             
-        print(f"Loading local Database from {self.LOCAL_JSON_PATH}...")
-        with open(self.LOCAL_JSON_PATH, 'r', encoding='utf-8') as f:
+        print(f"Loading local Database from {self.db_path}...")
+        with open(self.db_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             
         for row in data:
@@ -143,3 +149,83 @@ class JA4PlusDatabase:
             }
         else:
             return {"result": "unknown"}
+
+def evaluate_test_set_to_file(dataset_path: str, db_file: str, model_name: str, mode: str, output_file: str):
+    """
+    Reads the full dataset, runs the identical train_test_split as other models, 
+    and evaluates strictly the Test set against the provided dictionary database.
+    Saves the results directly to the required prediction payload format for the graph generator.
+    """
+    print(f"Loading full dataset from {dataset_path}...")
+    with open(dataset_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        
+    df = pd.DataFrame(data)
+    df = df.dropna(subset=["application"])
+    
+    # Run the exact same split to isolate the unseen Test set
+    y = df["application"]
+    try:
+        _, test_df = train_test_split(df, test_size=0.2, random_state=42, stratify=y)
+    except ValueError:
+        print("Warning: Couldn't stratify split due to rare classes. Falling back to unstratified split.")
+        _, test_df = train_test_split(df, test_size=0.2, random_state=42)
+
+    print(f"Evaluating {len(test_df)} unseen test samples with Dictionary ({model_name}) using {db_file}...")
+    
+    db = JA4PlusDatabase(mode=mode, db_path=db_file)
+    db.load_database()
+    
+    evaluated_results = []
+    
+    for _, row in test_df.iterrows():
+        app = row.get("application", "Unknown")
+        ja4 = row.get("ja4_fingerprint") or ""
+        ja4s = row.get("ja4s_fingerprint") or ""
+        ja4ts = row.get("ja4ts_fingerprint") or row.get("ja4t_fingerprint") or ""
+        
+        # Query the dictionary
+        res = db.predict(ja4=ja4, ja4s=ja4s, ja4ts=ja4ts)
+        
+        # Parse the output into our standardized Graph schema
+        prediction_app = "Unknown"
+        top_k_list = []
+        matches_count = 0
+        
+        if res.get("result") == "match":
+            matches_count = res.get("total_unique_combinations_found", 0)
+            top_matches = res.get("top_matches", [])
+            
+            # Extract the raw application strings to build the top_k array
+            for m in top_matches:
+                cand = m.get("Application")
+                if cand and cand not in top_k_list:
+                    top_k_list.append(cand)
+                    
+            if top_k_list:
+                prediction_app = top_k_list[0]
+                
+        # Append to the final payload
+        evaluated_results.append({
+            "true_app": app,
+            "prediction": prediction_app,
+            "top_k": top_k_list,
+            "matches_count": matches_count
+        })
+
+    # Save to JSON
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(evaluated_results, f, indent=4)
+        
+    print(f"Evaluation Complete! Saved {len(evaluated_results)} predictions to {output_file}")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Evaluate dataset on a JA4 database model.")
+    parser.add_argument("--dataset_file", required=True, help="Path to the full raw dataset file")
+    parser.add_argument("--db_file", required=True, help="Path to the dictionary DB to evaluate against (e.g. ja4+_db.json or egenlagd_db.json)")
+    parser.add_argument("--model_name", required=True, help="Name of the model being tested (e.g., FoxIO, Egenlagd)")
+    parser.add_argument("--mode", default="ja4_ja4s_ja4ts", help="The strictness mode of the dictionary matching")
+    parser.add_argument("--output_file", required=True, help="Path to save the _result.json payload")
+    
+    args = parser.parse_args()
+    evaluate_test_set_to_file(args.dataset_file, args.db_file, args.model_name, args.mode, args.output_file)

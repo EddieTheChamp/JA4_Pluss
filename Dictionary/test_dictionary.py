@@ -1,4 +1,4 @@
-from ja4_dictionary import JA4PlusDatabase
+from dictionary_model import JA4PlusDatabase
 
 def run_tests():
     print("=========================================")
