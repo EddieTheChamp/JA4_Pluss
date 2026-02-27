@@ -31,7 +31,7 @@ def main():
     args = parser.parse_args()
 
     # 1. Forbered Conn-data (hvis filen finnes)
-    # Vi lager en ordbok: { "UID": {"ja4t": "...", "ja4ts": "..."} }
+    # Vi lager en dictionary: { "UID": {"ja4t": "...", "ja4ts": "..."} }
     conn_map = {}
     if args.conn_log:
         conn_fields = get_fields_from_log(args.conn_log)
