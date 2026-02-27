@@ -129,7 +129,10 @@ def train_and_evaluate(dataset_path: str, output_result_path: str):
                 parsed[col] = label_encoders[col].transform([str(parsed[col])])[0]
                 
             x_test_row = [parsed[col] for col in feature_cols]
-            class_probs = rf_model.predict_proba([x_test_row])[0]
+            
+            # Convert to DataFrame with matching column names to suppress Sklearn warnings
+            x_test_df = pd.DataFrame([x_test_row], columns=feature_cols)
+            class_probs = rf_model.predict_proba(x_test_df)[0]
             
             # Identify Top-5
             top_indices = np.argsort(class_probs)[::-1][:5]

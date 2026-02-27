@@ -27,7 +27,7 @@ class JA4PlusDatabase:
                                This is extremely rigid and will only match exact replicas of traffic.
             db_path (str): The path to the JSON database file to load into memory.
         """
-        valid_modes = ["ja4_only", "ja4_ja4s", "ja4_ja4s_ja4ts"]
+        valid_modes = ["ja4_only", "ja4s_only", "ja4t_only", "ja4ts_only", "ja4_ja4s", "ja4_ja4s_ja4ts"]
         if mode not in valid_modes:
             raise ValueError(f"Invalid mode. Must be one of: {valid_modes}")
             
@@ -55,6 +55,7 @@ class JA4PlusDatabase:
             # Safely handle potential None values by replacing them with empty strings
             ja4 = (row.get("ja4_fingerprint") or "").strip()
             ja4s = (row.get("ja4s_fingerprint") or "").strip()
+            ja4t = (row.get("ja4t_fingerprint") or "").strip()
             
             # Use ja4ts_fingerprint if available, otherwise fallback to ja4t_fingerprint
             ja4ts = (row.get("ja4ts_fingerprint") or row.get("ja4t_fingerprint") or "").strip()
@@ -69,6 +70,12 @@ class JA4PlusDatabase:
             
             if self.mode == "ja4_only" and ja4:
                 index_key = ja4
+            elif self.mode == "ja4s_only" and ja4s:
+                index_key = ja4s
+            elif self.mode == "ja4t_only" and ja4t:
+                index_key = ja4t
+            elif self.mode == "ja4ts_only" and ja4ts:
+                index_key = ja4ts
             elif self.mode == "ja4_ja4s" and (ja4 or ja4s):
                 # Glue them together to make a highly specific key
                 index_key = f"{ja4}|{ja4s}"
@@ -95,7 +102,7 @@ class JA4PlusDatabase:
 
         print("Database loaded successfully.")
                 
-    def predict(self, ja4: str = "", ja4s: str = "", ja4ts: str = "") -> Optional[Dict[str, Any]]:
+    def predict(self, ja4: str = "", ja4s: str = "", ja4t: str = "", ja4ts: str = "") -> Optional[Dict[str, Any]]:
         """
         Predicts the application based on the provided fingerprint components. 
         It strictly enforces the current mode.
@@ -106,6 +113,21 @@ class JA4PlusDatabase:
             if not ja4:
                 return {"result": "unknown", "reason": "Missing required JA4 string"}
             target_key = ja4
+            
+        elif self.mode == "ja4s_only":
+            if not ja4s:
+                return {"result": "unknown", "reason": "Missing required JA4S string"}
+            target_key = ja4s
+            
+        elif self.mode == "ja4t_only":
+            if not ja4t:
+                return {"result": "unknown", "reason": "Missing required JA4T string"}
+            target_key = ja4t
+            
+        elif self.mode == "ja4ts_only":
+            if not ja4ts:
+                return {"result": "unknown", "reason": "Missing required JA4TS string"}
+            target_key = ja4ts
             
         elif self.mode == "ja4_ja4s":
             if not ja4 and not ja4s:
@@ -182,10 +204,11 @@ def evaluate_test_set_to_file(dataset_path: str, db_file: str, model_name: str, 
         app = row.get("application", "Unknown")
         ja4 = row.get("ja4_fingerprint") or ""
         ja4s = row.get("ja4s_fingerprint") or ""
+        ja4t = row.get("ja4t_fingerprint") or ""
         ja4ts = row.get("ja4ts_fingerprint") or row.get("ja4t_fingerprint") or ""
         
         # Query the dictionary
-        res = db.predict(ja4=ja4, ja4s=ja4s, ja4ts=ja4ts)
+        res = db.predict(ja4=ja4, ja4s=ja4s, ja4t=ja4t, ja4ts=ja4ts)
         
         # Parse the output into our standardized Graph schema
         prediction_app = "Unknown"
