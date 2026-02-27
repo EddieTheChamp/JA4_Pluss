@@ -10,6 +10,19 @@ import json
 
 separator = "\t"  # Zeek bruker tabulator som separator i loggene
 
+
+def str_to_bool(value):
+    if isinstance(value, bool):
+        return value
+
+    normalized = value.strip().lower()
+    if normalized in {"true", "1", "yes", "y", "on"}:
+        return True
+    if normalized in {"false", "0", "no", "n", "off"}:
+        return False
+
+    raise argparse.ArgumentTypeError("Expected a boolean value (true/false).")
+
 def clean_value(val):
     # Zeek bruker "-" for tomme felt.
     if val is None or val == "-" or val == "(empty)":
@@ -28,6 +41,14 @@ def main():
     parser.add_argument("-a", "--application_name", required=True)
     parser.add_argument("-ssl", "--ssl_log", required=True)
     parser.add_argument("-conn", "--conn_log")
+    parser.add_argument(
+        "--complete_json",
+        type=str_to_bool,
+        nargs="?",
+        const=True,
+        default=True,
+        help="Set true/false. True outputs a complete JSON array; false outputs one JSON object per line.",
+    )
     args = parser.parse_args()
 
     # 1. Forbered Conn-data (hvis filen finnes)
@@ -38,7 +59,8 @@ def main():
         if conn_fields:
             with open(args.conn_log, "r") as f:
                 for line in f:
-                    if line.startswith("#"): continue
+                    if line.startswith("#"):
+                        continue
                     parts = line.strip().split(separator)
                     if len(parts) == len(conn_fields):
                         c_entry = dict(zip(conn_fields, parts))
@@ -55,11 +77,13 @@ def main():
         print("Error: could not find #fields in SSL log", file=sys.stderr)
         return
     
-    print("[")  # Start JSON-arrayen
+    if args.complete_json:
+        print("[")  # Start JSON-arrayen
     first_entry = True
     with open(args.ssl_log, "r") as f:
         for line in f:
-            if line.startswith("#"): continue
+            if line.startswith("#"):
+                continue
             
             values = line.strip().split(separator)
             if len(values) != len(ssl_fields):
@@ -83,10 +107,12 @@ def main():
             
             # Vi printer bare hvis vi i det minste har en JA4
             if output_data["ja4"]:
-                if not first_entry:
+                if not first_entry or not args.complete_json:
                     print(",")  # Legg til komma mellom objektene
                 print(json.dumps(output_data), end="")
+
                 first_entry = False
-    print("\n]")  # Avslutt JSON-arrayen
+    if args.complete_json:
+        print("\n]")  # Avslutt JSON-arrayen
 if __name__ == "__main__":
     main()
