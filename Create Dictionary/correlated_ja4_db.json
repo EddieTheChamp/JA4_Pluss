@@ -1,0 +1,1022 @@
+[
+    {
+        "application": "Code.exe",
+        "ja4_fingerprint": "t13d181200_5d04281c6031_02c8e53ee398",
+        "ja4_fingerprint_string": "t13d181200_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c027,c02b,c02c,c02f,c030,cca8,cca9_000a,000b,000d,0015,0017,0023,0029,002b,002d,0033,ff01_0403,0804,0401,0503,0805,0501,0806,0601,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "pwsh.exe",
+        "ja4_fingerprint": "t13d201100_2b729b4bf6f3_36bf25f296df",
+        "ja4_fingerprint_string": "t13d201100_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0029,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0029,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "MpDefenderCoreService.exe",
+        "ja4_fingerprint": "t13d201300_2b729b4bf6f3_1ea369dc5faa",
+        "ja4_fingerprint_string": "t13d201300_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,0029,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "Code.exe",
+        "ja4_fingerprint": "t13d181200_5d04281c6031_02c8e53ee398",
+        "ja4_fingerprint_string": "t13d181200_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c027,c02b,c02c,c02f,c030,cca8,cca9_000a,000b,000d,0015,0017,0023,0029,002b,002d,0033,ff01_0403,0804,0401,0503,0805,0501,0806,0601,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "OneDrive.exe",
+        "ja4_fingerprint": "t13d201300_2b729b4bf6f3_1ea369dc5faa",
+        "ja4_fingerprint_string": "t13d201300_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,0029,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1207h1_c030_cf25e267ce22"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "chrome.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1204h2_c030_b252f78b95f6"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "svchost.exe",
+        "ja4_fingerprint": "t13d2013h2_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d2013h2_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "svchost.exe",
+        "ja4_fingerprint": "t13d2013h2_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d2013h2_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "svchost.exe",
+        "ja4_fingerprint": "t13d2013h2_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d2013h2_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "svchost.exe",
+        "ja4_fingerprint": "t13d2013h2_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d2013h2_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1204h2_c030_b252f78b95f6"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1204h2_c030_b252f78b95f6"
+    },
+    {
+        "application": "msedgewebview2.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1515h1_8daaf6152771_0a20fe35d3a5",
+        "ja4_fingerprint_string": "t13d1515h1_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d201200_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d201200_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d201200_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d201200_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "svchost.exe",
+        "ja4_fingerprint": "t13d2013h2_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d2013h2_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1717h2_5b57614c22b0_3cbfd9057e0d",
+        "ja4_fingerprint_string": "t13d1717h2_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,001c,0022,0023,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t13d1716h1_5b57614c22b0_e6d2851837fd",
+        "ja4_fingerprint_string": "t13d1716h1_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001c,0022,0029,002b,002d,0033,fe0d,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t130300_1301_6bbbaf601ed8"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1204h2_c030_b252f78b95f6"
+    },
+    {
+        "application": "firefox.exe",
+        "ja4_fingerprint": "t12d1411h2_c866b44c5a26_810e2f290f6f",
+        "ja4_fingerprint_string": "t12d1411h2_002f,0035,009c,009d,c009,c00a,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001c,0023,ff01_0403,0503,0603,0804,0805,0806,0401,0501,0601,0203,0201",
+        "ja4s_fingerprint": "t1206h2_c02f_3f14cc51fb76"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1302_0ee26285a86f"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t1204h2_c030_b252f78b95f6"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "Code.exe",
+        "ja4_fingerprint": "t13d181200_5d04281c6031_02c8e53ee398",
+        "ja4_fingerprint_string": "t13d181200_002f,0035,009c,009d,1301,1302,1303,c009,c00a,c013,c014,c027,c02b,c02c,c02f,c030,cca8,cca9_000a,000b,000d,0015,0017,0023,0029,002b,002d,0033,ff01_0403,0804,0401,0503,0805,0501,0806,0601,0201",
+        "ja4s_fingerprint": "t130200_1301_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "WINWORD.EXE",
+        "ja4_fingerprint": "t13d201200_2b729b4bf6f3_e24568c0d440",
+        "ja4_fingerprint_string": "t13d201200_002f,0035,003c,003d,009c,009d,1301,1302,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,002b,002d,0031,0033,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "Code.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130300_1301_0ee26285a86f"
+    },
+    {
+        "application": "WerFault.exe",
+        "ja4_fingerprint": "t12d180800_4b22cbed5bed_7af1ed941c26",
+        "ja4_fingerprint_string": "t12d180800_002f,0035,003c,003d,009c,009d,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1516h2_8daaf6152771_d8a2da3f94cd",
+        "ja4_fingerprint_string": "t13d1516h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1301_234ea6891581"
+    },
+    {
+        "application": "WerFault.exe",
+        "ja4_fingerprint": "t12d180800_4b22cbed5bed_7af1ed941c26",
+        "ja4_fingerprint_string": "t12d180800_002f,0035,003c,003d,009c,009d,c009,c00a,c013,c014,c023,c024,c027,c028,c02b,c02c,c02f,c030_0005,000a,000b,000d,0017,0023,ff01_0804,0805,0806,0401,0501,0201,0403,0503,0203,0202,0601,0603",
+        "ja4s_fingerprint": null
+    },
+    {
+        "application": "msedge.exe",
+        "ja4_fingerprint": "t13d1517h2_8daaf6152771_b6f405a00624",
+        "ja4_fingerprint_string": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+        "ja4s_fingerprint": "t130200_1302_a56c5b993250"
+    }
+]

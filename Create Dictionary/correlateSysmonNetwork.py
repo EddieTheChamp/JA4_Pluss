@@ -127,7 +127,7 @@ def main():
 
     try:
         args = parser.parse_args()
-    except Exception as e:
+    except Exception:
         print (parser.print_help())
 
 
