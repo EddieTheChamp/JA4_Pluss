@@ -3,11 +3,13 @@ import json
 import os
 import math
 import logging
+import argparse
+
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-def correlate_traffic_best_effort(csv_file, json_file, output_file, time_delta_seconds=2, domain_aware=True):
+def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, domain_aware):
     print("[*] Loading data...")
     df_csv = pd.read_csv(csv_file)
     
@@ -92,6 +94,9 @@ def correlate_traffic_best_effort(csv_file, json_file, output_file, time_delta_s
         "ja4s_fingerprint": merged['JA4S']
     })
 
+    # Keep only rows where both application and JA4 fingerprint are present
+    final_df = final_df[final_df['application'].notna() & final_df['ja4_fingerprint'].notna()]
+
     # Replace Pandas NaNs with None for proper JSON 'null' output
     final_df = final_df.astype(object).where(pd.notna(final_df), None)
 
@@ -109,5 +114,30 @@ def correlate_traffic_best_effort(csv_file, json_file, output_file, time_delta_s
         
     print(f"[+] Success! Exported {len(output_records)} records to {output_file}")
 
+
+def main():
+    parser = argparse.ArgumentParser(description='Correlate Sysmon and JA4 data')
+    parser.add_argument('--csv', help='Path to Sysmon CSV file', required=True)
+    parser.add_argument('--json', help='Path to JA4 JSON file', required=True)
+    parser.add_argument('--output', help='Path to output JSON file', required=True)
+    parser.add_argument('--time-delta', type=int, default=3, help='Time delta in seconds')
+    parser.add_argument('--domain-aware', default=False, action='store_true', help='Enable domain-aware correlation')
+
+    args = parser.parse_args()
+
+    try:
+        args = parser.parse_args()
+    except Exception as e:
+        print (parser.print_help())
+
+
+    correlate_traffic(
+        csv_file=args.csv,
+        json_file=args.json,
+        output_file=args.output,
+        time_delta_seconds=args.time_delta,
+        domain_aware=args.domain_aware
+    )
+
 if __name__ == "__main__":
-    correlate_traffic_best_effort('sysmon_data.csv', 'network_data.json', 'correlated_ja4_db.json', time_delta_seconds=2)
+    main()
