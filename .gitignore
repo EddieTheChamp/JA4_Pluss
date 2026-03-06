@@ -31,3 +31,7 @@ Dictionary/Iteration4/catboost_info/time_left.tsv
 Dictionary/Iteration4/catboost_info/learn/events.out.tfevents
 Dictionary/Results/correlated_Egenlagd_result.json
 Dictionary/Results/foxio_Egenlagd_result.json
+Dictionary/Visualization/app_distribution_large.png
+Dictionary/Visualization/confusion_matrix_Dictionary_(Egenlagd).png
+Dictionary/Visualization/prototype_predictions.png
+Dictionary/Custom_DB/egenlagd_correlated_db.json
