@@ -96,6 +96,7 @@ class JA4PlusDatabase:
                     "OS": (row.get("os") or "").strip(),
                     "UserAgent": user_agent,
                     "Notes": (row.get("notes") or "").strip(),
+                    "Count": row.get("count", 1),
                 })
                 
                 # Note: Overwriting previous identical entries is acceptable for this basic usage.
@@ -146,19 +147,27 @@ class JA4PlusDatabase:
             # Aggregate the frequency of unique metadata combinations
             frequency_map = {}
             for match in all_matches:
+                count = match.get("Count", 1)
+                group_match = {k: v for k, v in match.items() if k != "Count"}
+                
                 # Convert the dictionary match to a hashable tuple to group identical rows
-                match_tuple = tuple(sorted(match.items()))
+                match_tuple = tuple(sorted(group_match.items()))
                 if match_tuple not in frequency_map:
                     frequency_map[match_tuple] = 0
-                frequency_map[match_tuple] += 1
+                frequency_map[match_tuple] += count
                 
             # Sort by frequency descending
             sorted_matches = sorted(frequency_map.items(), key=lambda item: item[1], reverse=True)
+            
+            # Calculate total occurrences for probabilities
+            total_matches_count = sum(c for _, c in sorted_matches)
             
             results = []
             for item, count in sorted_matches[:5]:
                 match_dict = dict(item)
                 match_dict["occurrences_in_database"] = count
+                probability = (count / total_matches_count) * 100 if total_matches_count > 0 else 0
+                match_dict["probability_percent"] = round(probability, 2)
                 results.append(match_dict)
                 
             additional_hidden = len(sorted_matches) - 5 if len(sorted_matches) > 5 else 0
@@ -236,11 +245,45 @@ def evaluate_test_set_to_file(dataset_path: str, db_file: str, model_name: str, 
             "matches_count": matches_count
         })
 
+    # Display Text-based results similar to iteration1
+    total = len(evaluated_results)
+    top1 = top3 = top5 = 0
+    unique = collision = unknown = 0
+
+    for r in evaluated_results:
+        true_app = r["true_app"]
+        top_k = r["top_k"]
+        matches = r["matches_count"]
+        
+        if true_app in top_k[:1]: top1 += 1
+        if true_app in top_k[:3]: top3 += 1
+        if true_app in top_k[:5]: top5 += 1
+            
+        if matches == 1: unique += 1
+        elif matches > 1: collision += 1
+        else: unknown += 1
+
+    print("\n" + "="*80)
+    print(f"Dictionary Evaluation Summary: {model_name} (Mode: {mode})".center(80))
+    print("="*80)
+    
+    print(f"Total Test Samples: {total}")
+    print("\n--- Match Disambiguation ---")
+    print(f"Unique Matches (Dict matched 1 App)  : {unique} ({(unique/total*100) if total else 0:.1f}%)")
+    print(f"Collisions (>1 Apps Matched Dict)    : {collision} ({(collision/total*100) if total else 0:.1f}%)")
+    print(f"Unknown (No Match in DB)             : {unknown} ({(unknown/total*100) if total else 0:.1f}%)")
+    
+    print("\n--- Accuracy Scores ---")
+    print(f"Top-1 Accuracy : {(top1/total*100) if total else 0:.1f}%")
+    print(f"Top-3 Accuracy : {(top3/total*100) if total else 0:.1f}%")
+    print(f"Top-5 Accuracy : {(top5/total*100) if total else 0:.1f}%")
+    print("="*80 + "\n")
+
     # Save to JSON
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(evaluated_results, f, indent=4)
         
-    print(f"Evaluation Complete! Saved {len(evaluated_results)} predictions to {output_file}")
+    print(f"Evaluation Complete! Saved predictions to {output_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate dataset on a JA4 database model.")
