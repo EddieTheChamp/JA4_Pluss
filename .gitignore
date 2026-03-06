@@ -17,3 +17,17 @@ Dictionary/Results/dictionary_FoxIO_result.json
 Dictionary/Results/dictionary_Egenlagd_result.json
 Dictionary/egenlagd_db.json
 Dictionary/Iteration1/firefox.json
+Dictionary/Iteration4/feature_importances.json
+Dictionary/Iteration4/ja4_correlation_matrix.png
+Dictionary/Iteration4/modularity_bot_CatBoost.png
+Dictionary/Iteration4/modularity_bot_XGBoost.png
+Dictionary/Iteration4/modularity_bot_Random_Forest.png
+Dictionary/Iteration4/notes_with_ja4.txt
+Dictionary/Iteration4/seed_results.txt
+Dictionary/Iteration4/train_output.txt
+Dictionary/Iteration4/catboost_info/catboost_training.json
+Dictionary/Iteration4/catboost_info/learn_error.tsv
+Dictionary/Iteration4/catboost_info/time_left.tsv
+Dictionary/Iteration4/catboost_info/learn/events.out.tfevents
+Dictionary/Results/correlated_Egenlagd_result.json
+Dictionary/Results/foxio_Egenlagd_result.json
