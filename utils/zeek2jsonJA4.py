@@ -1,11 +1,13 @@
 """
-Bruk: py zeek2jsonJA4.py -a <application_name> -ssl <ssl_log_path> [-conn <conn_log_path>]
-Eksempel: py zeek2jsonJA4.py -a "Outlook" -ssl ssl.log -conn conn.log > output.json
+Bruk: py zeek2jsonJA4.py -ssl <ssl_log_path> [-conn <conn_log_path>]
+Eksempel: py zeek2jsonJA4.py -ssl ssl.log -conn conn.log > output.json
 """
 
 import sys
 import argparse
 import json
+from datetime import datetime, timezone
+from decimal import Decimal, InvalidOperation, ROUND_FLOOR
 
 
 separator = "\t"  # Zeek bruker tabulator som separator i loggene
@@ -29,6 +31,24 @@ def clean_value(val):
         return None
     return val
 
+
+def format_zeek_timestamp_to_zulu(ts_value):
+    cleaned = clean_value(ts_value)
+    if cleaned is None:
+        return None
+
+    try:
+        ts_decimal = Decimal(cleaned)
+    except (InvalidOperation, TypeError, ValueError):
+        return None
+
+    seconds = int(ts_decimal.to_integral_value(rounding=ROUND_FLOOR))
+    fractional = ts_decimal - Decimal(seconds)
+    nanoseconds = int((fractional * Decimal("1000000000")).to_integral_value(rounding=ROUND_FLOOR))
+
+    dt_utc = datetime.fromtimestamp(seconds, tz=timezone.utc)
+    return f"{dt_utc.strftime('%Y-%m-%dT%H:%M:%S')}.{nanoseconds:09d}Z"
+
 def get_fields_from_log(log_path):
     with open(log_path, "r") as f:
         for line in f:
@@ -38,7 +58,6 @@ def get_fields_from_log(log_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Extracts JA4, JA4s, JA4t, JA4ts from Zeek SSL and Conn logs to JSON stdout.")
-    parser.add_argument("-a", "--application_name", required=True)
     parser.add_argument("-ssl", "--ssl_log", required=True)
     parser.add_argument("-conn", "--conn_log")
     parser.add_argument(
@@ -97,16 +116,19 @@ def main():
             
             # 4. Bygg og print resultatet med en gang
             output_data = {
-                "application": args.application_name,
-                "ja4": clean_value(ssl_entry.get("ja4")),
-                "ja4s": clean_value(ssl_entry.get("ja4s")),
-                "ja4t": clean_value(extra_data.get("ja4t")),
-                "ja4ts": clean_value(extra_data.get("ja4ts")),
-                "sni": clean_value(ssl_entry.get("server_name")),
+                "timestamp": format_zeek_timestamp_to_zulu(ssl_entry.get("ts")),
+                "dst": clean_value(ssl_entry.get("id.resp_h")),
+                "srcport": clean_value(ssl_entry.get("id.orig_p")),
+                "dstport": clean_value(ssl_entry.get("id.resp_p")),
+                "JA4": clean_value(ssl_entry.get("ja4")),
+                "JA4S": clean_value(ssl_entry.get("ja4s")),
+                "JA4T": clean_value(extra_data.get("ja4t")),
+                "JA4TS": clean_value(extra_data.get("ja4ts")),
+                "domain": clean_value(ssl_entry.get("server_name")),
             }
             
             # Vi printer bare hvis vi i det minste har en JA4
-            if output_data["ja4"]:
+            if output_data["JA4"] is not None:
                 if not first_entry or not args.complete_json:
                     print(",")  # Legg til komma mellom objektene
                 print(json.dumps(output_data), end="")

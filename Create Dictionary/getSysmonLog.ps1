@@ -1,7 +1,7 @@
 param(
     [string]$OutputPath = "sysmon_data.csv",
     [int]$PollSeconds = 1,
-    [int]$BootstrapMaxEvents = 200 # Number of historical events to load on startup if the output file doesn't exist
+    [int]$BootstrapMaxEvents = 100 # Number of historical events to load on startup if the output file doesn't exist
 )
 
 $logName = 'Microsoft-Windows-Sysmon/Operational'

@@ -9,7 +9,7 @@ import argparse
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, domain_aware):
+def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, domain_aware, keep_unknown_apps):
     print("[*] Loading data...")
     df_csv = pd.read_csv(csv_file)
     
@@ -24,7 +24,7 @@ def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, doma
 
     # 2. Standardize timestamps and sort (Required)
     df_csv['timestamp'] = pd.to_datetime(df_csv['timestamp'])
-    df_json['timestamp'] = pd.to_datetime(df_json['A'])
+    df_json['timestamp'] = pd.to_datetime(df_json['timestamp'] if 'timestamp' in df_json.columns else df_json['A'])
     df_csv = df_csv.sort_values('timestamp')
     df_json = df_json.sort_values('timestamp')
 
@@ -89,13 +89,16 @@ def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, doma
     # 7. Format the output to your exact JSON schema
     final_df = pd.DataFrame({
         "application": merged['app'],
-        "ja4_fingerprint": merged['JA4.1'],
-        "ja4_fingerprint_string": merged['JA4_r.1'],
-        "ja4s_fingerprint": merged['JA4S']
+        "ja4_fingerprint": merged['JA4.1'] if 'JA4.1' in merged.columns else merged['JA4'],
+        "ja4_fingerprint_string": merged['JA4_r.1'] if 'JA4_r.1' in merged.columns else None,
+        "ja4s_fingerprint": merged['JA4S'],
+        "ja4t": merged['JA4T'] if 'JA4T' in merged.columns else None,
+        "ja4ts": merged['JA4TS'] if 'JA4TS' in merged.columns else None
     })
 
-    # Keep only rows where both application and JA4 fingerprint are present
-    final_df = final_df[final_df['application'].notna() & final_df['ja4_fingerprint'].notna()]
+    if not keep_unknown_apps:
+        # Keep only rows where both application and JA4 fingerprint are present
+        final_df = final_df[final_df['application'].notna() & final_df['ja4_fingerprint'].notna()]
 
     # Replace Pandas NaNs with None for proper JSON 'null' output
     final_df = final_df.astype(object).where(pd.notna(final_df), None)
@@ -122,6 +125,7 @@ def main():
     parser.add_argument('--output', help='Path to output JSON file', required=True)
     parser.add_argument('--time-delta', type=int, default=3, help='Time delta in seconds')
     parser.add_argument('--domain-aware', default=False, action='store_true', help='Enable domain-aware correlation')
+    parser.add_argument('--keep-unknown-apps', default=False, action='store_true', help='Keep entries without application matches')
 
     args = parser.parse_args()
 
@@ -136,7 +140,8 @@ def main():
         json_file=args.json,
         output_file=args.output,
         time_delta_seconds=args.time_delta,
-        domain_aware=args.domain_aware
+        domain_aware=args.domain_aware,
+        keep_unknown_apps=args.keep_unknown_apps
     )
 
 if __name__ == "__main__":
