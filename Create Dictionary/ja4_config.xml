@@ -3,10 +3,9 @@
     <RuleGroup name="JA4_Collection" groupRelation="or">
       <NetworkConnect onmatch="include">
         <DestinationPort condition="is">443</DestinationPort>
-        <DestinationPort condition="is">8443</DestinationPort>
-        <DestinationPort condition="is">465</DestinationPort>
-        <DestinationPort condition="is">993</DestinationPort>
+        <DestinationPort condition="is">8888</DestinationPort>
       </NetworkConnect>
     </RuleGroup>
   </EventFiltering>
 </Sysmon>
+
