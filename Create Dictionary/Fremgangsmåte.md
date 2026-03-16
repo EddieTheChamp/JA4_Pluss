@@ -1,6 +1,7 @@
-0. Installer wireshark (med tshark), legg tshark i PATH. Installer Sysmon og kjør ```.\sysmon64.exe -i ja4_config.xml```
-Powershell må konfigureres til å kjøre skript:\
-```Set-ExecutionPolicy RemoteSigned```
+0. Installer wireshark (med tshark), legg tshark (```C:\Program Files\Wireshark```) i system PATH. Last ned Sysmon (https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) og kjør som administrator: ```.\Sysmon64.exe -accepteula -i .\ja4_config.xml```
+Powershell må konfigureres til å kjøre skript. Kjør som administrator og svar [A] (yes to all):\
+```Set-ExecutionPolicy RemoteSigned```\
+(Ved RemoteSigned må ps1-scriptet være redigert lokalt, kan sette Unrestricted for å kjøre skript som er lastet ned uten å redigere det, men er ikke anbefalt)
 
 1. Start tshark:\
 ```tshark -i "Ethernet0" -w network_data.pcapng -f "tcp"```
@@ -11,8 +12,8 @@ Powershell må konfigureres til å kjøre skript:\
 ```python .\FoxIO-python\ja4.py .\network_data.pcapng -Jv -f .\network_data.json --ja4 --ja4s```
 
 4. (Alternativt) Konverter network data med JA4, JA4s, JA4t og JA4ts (egenlagd)\
-```docker run -it --rm -v "${PWD}:/data/" -w /data/ zeek-ja4 -C -r /data/my_traffic.pcap local```\
-```python zeek2jsonJA4.py -ssl ssl.log -conn conn.log > network_data.json```
+```docker run --rm -v "${PWD}:/data/" -w /data/ zeek-ja4 -C -r /data/network_data.pcapng local```\
+```python zeek2jsonJA4.py --ssl ssl.log --conn conn.log > network_data.json```
 
 
 5. Korreler Sysmon og JA4 data:\

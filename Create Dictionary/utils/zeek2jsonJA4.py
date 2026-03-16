@@ -1,6 +1,6 @@
 """
-Bruk: py zeek2jsonJA4.py -ssl <ssl_log_path> [-conn <conn_log_path>]
-Eksempel: py zeek2jsonJA4.py -ssl ssl.log -conn conn.log > output.json
+Bruk: py zeek2jsonJA4.py --ssl <ssl_log_path> [--conn <conn_log_path>]
+Eksempel: py zeek2jsonJA4.py --ssl ssl.log --conn conn.log > output.json
 """
 
 import sys
@@ -58,8 +58,8 @@ def get_fields_from_log(log_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Extracts JA4, JA4s, JA4t, JA4ts from Zeek SSL and Conn logs to JSON stdout.")
-    parser.add_argument("-ssl", "--ssl_log", required=True)
-    parser.add_argument("-conn", "--conn_log")
+    parser.add_argument("--ssl", required=True)
+    parser.add_argument("--conn")
     parser.add_argument(
         "--complete_json",
         type=str_to_bool,
@@ -73,10 +73,10 @@ def main():
     # 1. Forbered Conn-data (hvis filen finnes)
     # Vi lager en dictionary: { "UID": {"ja4t": "...", "ja4ts": "..."} }
     conn_map = {}
-    if args.conn_log:
-        conn_fields = get_fields_from_log(args.conn_log)
+    if args.conn:
+        conn_fields = get_fields_from_log(args.conn)
         if conn_fields:
-            with open(args.conn_log, "r") as f:
+            with open(args.conn, "r") as f:
                 for line in f:
                     if line.startswith("#"):
                         continue
@@ -91,7 +91,7 @@ def main():
                             }
 
     # 2. Prosesser SSL-loggen linje for linje
-    ssl_fields = get_fields_from_log(args.ssl_log)
+    ssl_fields = get_fields_from_log(args.ssl)
     if not ssl_fields:
         print("Error: could not find #fields in SSL log", file=sys.stderr)
         return
@@ -99,7 +99,7 @@ def main():
     if args.complete_json:
         print("[")  # Start JSON-arrayen
     first_entry = True
-    with open(args.ssl_log, "r") as f:
+    with open(args.ssl, "r") as f:
         for line in f:
             if line.startswith("#"):
                 continue
@@ -121,7 +121,9 @@ def main():
                 "srcport": clean_value(ssl_entry.get("id.orig_p")),
                 "dstport": clean_value(ssl_entry.get("id.resp_p")),
                 "JA4": clean_value(ssl_entry.get("ja4")),
+                "JA4_r": clean_value(ssl_entry.get("ja4_r")),
                 "JA4S": clean_value(ssl_entry.get("ja4s")),
+                "JA4S_r": clean_value(ssl_entry.get("ja4s_r")),
                 "JA4T": clean_value(extra_data.get("ja4t")),
                 "JA4TS": clean_value(extra_data.get("ja4ts")),
                 "domain": clean_value(ssl_entry.get("server_name")),

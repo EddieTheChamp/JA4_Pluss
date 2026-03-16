@@ -1,2 +1,0 @@
-Build image: docker build -t zeek-ja4 .
-Run container (need to run form the directory where the pcap/pcapng is): docker run -it --rm -v "${PWD}:/data/" -w /data/ zeek-ja4 -C -r /data/my_traffic.pcap local

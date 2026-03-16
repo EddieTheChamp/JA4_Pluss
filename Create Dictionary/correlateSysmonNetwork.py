@@ -90,8 +90,9 @@ def correlate_traffic(csv_file, json_file, output_file, time_delta_seconds, doma
     final_df = pd.DataFrame({
         "application": merged['app'],
         "ja4_fingerprint": merged['JA4.1'] if 'JA4.1' in merged.columns else merged['JA4'],
-        "ja4_fingerprint_string": merged['JA4_r.1'] if 'JA4_r.1' in merged.columns else None,
+        "ja4_fingerprint_string": merged['JA4_r'] if 'JA4_r' in merged.columns else None,
         "ja4s_fingerprint": merged['JA4S'],
+        "ja4s_fingerprint_string": merged['JA4S_r'] if 'JA4S_r' in merged.columns else None,
         "ja4t": merged['JA4T'] if 'JA4T' in merged.columns else None,
         "ja4ts": merged['JA4TS'] if 'JA4TS' in merged.columns else None
     })
