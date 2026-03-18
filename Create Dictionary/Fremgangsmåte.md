@@ -8,12 +8,13 @@ Powershell må konfigureres til å kjøre skript. Kjør som administrator og sva
 2. Start Sysmon logging fra admin terminal:\
 ```.\getSysmonLog.ps1```
 3. Stopp tshark og Sysmon loggin (Ctrl+C)\
-4. Konverter network data til json med JA4 (Må kjøres utenfor venv for å få tilgang til tshark path):\
-```python .\FoxIO-python\ja4.py .\network_data.pcapng -Jv -f .\network_data.json --ja4 --ja4s```
 
-4. (Alternativt) Konverter network data med JA4, JA4s, JA4t og JA4ts (egenlagd)\
+4. Konverter network data med JA4, JA4s, JA4t og JA4ts (egenlagd)\
 ```docker run --rm -v "${PWD}:/data/" -w /data/ zeek-ja4 -C -r /data/network_data.pcapng local```\
 ```python zeek2jsonJA4.py --ssl ssl.log --conn conn.log > network_data.json```
+
+4. (Alternativt) Konverter network data til json med JA4 (Må kjøres utenfor venv for å få tilgang til tshark path):\
+```python .\FoxIO-python\ja4.py .\network_data.pcapng -Jv -f .\network_data.json --ja4 --ja4s```
 
 
 5. Korreler Sysmon og JA4 data:\
