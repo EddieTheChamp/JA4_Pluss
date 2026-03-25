@@ -148,3 +148,6 @@ Denne README-en er oppdatert for arbeidskopien i:
 `C:\Users\Vegard\JA4+\JA4_Pluss`
 
 Neste naturlige steg er a flytte aktive datafiler fra `Custom Database/` inn i `data/`, og eventuelt samle eldre eksperimenter i `legacy/`. Koden er allerede forberedt pa den overgangen via fallback-logikken i `current/services/loaders.py`.
+
+
+python Modeller/pipeline.py --ja4 "t13d1516h2_8a2d1d4d_8a2d1d4d" --ja4s "t130200_1301_8a2d1d4d" --ja4t "2016_02_2016" --ja4ts "2016_03_2016"

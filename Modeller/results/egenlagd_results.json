@@ -1,0 +1,3700 @@
+[
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d860700_e18388e7f3a3_4446390ac224"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "OUTLOOK.EXE",
+    "top_k": [
+      "OUTLOOK.EXE",
+      "WINWORD.EXE"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "pwsh.exe",
+    "prediction": "Unknown",
+    "top_k": [],
+    "matches_count": 0,
+    "match_mode": "none",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_89322cc15493"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "Code.exe",
+    "prediction": "Code.exe",
+    "top_k": [
+      "Code.exe",
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "prediction": "Code.exe",
+    "top_k": [
+      "Code.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "prediction": "Code.exe",
+    "top_k": [
+      "Code.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "prediction": "Code.exe",
+    "top_k": [
+      "Code.exe",
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1716h1_5b57614c22b0_e6d2851837fd"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "Signal.exe",
+    "prediction": "Signal.exe",
+    "top_k": [
+      "Signal.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d0307h1_55b375c5d22e_3df4dd8a7a2a"
+  },
+  {
+    "true_app": "Signal.exe",
+    "prediction": "Signal.exe",
+    "top_k": [
+      "Signal.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d181000_5d04281c6031_78e6aca7449b"
+  },
+  {
+    "true_app": "Signal.exe",
+    "prediction": "Signal.exe",
+    "top_k": [
+      "Signal.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d0307h1_55b375c5d22e_3df4dd8a7a2a"
+  },
+  {
+    "true_app": "Signal.exe",
+    "prediction": "Signal.exe",
+    "top_k": [
+      "Signal.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d181000_5d04281c6031_78e6aca7449b"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4ts",
+    "correct": false,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "OneDrive.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OneDrive.exe",
+      "ms-teams.exe",
+      "FileCoAuth.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 6,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "Code.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "Code.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "Code.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "prediction": "Code.exe",
+    "top_k": [
+      "Code.exe",
+      "msedge.exe",
+      "msedgewebview2.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "<unknown process>",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "<unknown process>",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t12d1809h2_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "<unknown process>",
+    "prediction": "firefox.exe",
+    "top_k": [
+      "firefox.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "Code.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "msedge.exe",
+    "top_k": [
+      "msedge.exe",
+      "chrome.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "msedgewebview2.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "msedgewebview2.exe",
+    "top_k": [
+      "msedgewebview2.exe",
+      "msedge.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "msedge.exe",
+      "Discord.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "Discord.exe",
+    "top_k": [
+      "Discord.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "Discord.exe",
+    "top_k": [
+      "Discord.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "Discord.exe",
+    "top_k": [
+      "Discord.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "chrome.exe",
+    "top_k": [
+      "chrome.exe",
+      "Discord.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "Discord.exe",
+    "top_k": [
+      "Discord.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Discord.exe",
+    "prediction": "Discord.exe",
+    "top_k": [
+      "Discord.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "M365Copilot.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OneDrive.exe",
+      "ms-teams.exe",
+      "FileCoAuth.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 6,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "OneDrive.Sync.Service.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OneDrive.exe",
+      "ms-teams.exe",
+      "FileCoAuth.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 6,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "JottaUpdate.exe",
+    "prediction": "jottad.exe",
+    "top_k": [
+      "jottad.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d141000_cbb2034c60b8_e7c285222651"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "ms-teams.exe",
+    "top_k": [
+      "ms-teams.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OUTLOOK.EXE",
+      "ms-teams.exe",
+      "msedge.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "jottad.exe",
+    "prediction": "Unknown",
+    "top_k": [],
+    "matches_count": 0,
+    "match_mode": "none",
+    "correct": false,
+    "ja4": "t13d1411h2_cbb2034c60b8_e7c285222651"
+  },
+  {
+    "true_app": "tailscaled.exe",
+    "prediction": "Unknown",
+    "top_k": [],
+    "matches_count": 0,
+    "match_mode": "none",
+    "correct": false,
+    "ja4": "t13d0312h2_55b375c5d22e_4a12575e92d6"
+  },
+  {
+    "true_app": "FileCoAuth.exe",
+    "prediction": "WINWORD.EXE",
+    "top_k": [
+      "WINWORD.EXE",
+      "OneDrive.exe",
+      "ms-teams.exe",
+      "FileCoAuth.exe",
+      "<unknown process>"
+    ],
+    "matches_count": 6,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "SLIVER_BEACON_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_BEACON_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "OfficeC2RClient.exe",
+    "prediction": "OfficeC2RClient.exe",
+    "top_k": [
+      "OfficeC2RClient.exe",
+      "M365Copilot.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "explorer.exe",
+    "prediction": "explorer.exe",
+    "top_k": [
+      "explorer.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "backgroundTaskHost.exe",
+    "prediction": "backgroundTaskHost.exe",
+    "top_k": [
+      "backgroundTaskHost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_BEACON_MTLS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_BEACON_MTLS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "smartscreen.exe",
+    "prediction": "smartscreen.exe",
+    "top_k": [
+      "smartscreen.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": true,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "MsMpEng.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe",
+      "MicrosoftEdgeUpdate.exe"
+    ],
+    "matches_count": 2,
+    "match_mode": "ja4_ja4t",
+    "correct": false,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_MTLS.exe",
+    "prediction": "SLIVER_HTTPS.exe",
+    "top_k": [
+      "SLIVER_HTTPS.exe",
+      "SLIVER_BEACON_MTLS.exe",
+      "SLIVER_BEACON_HTTPS.exe",
+      "SLIVER_MTLS.exe"
+    ],
+    "matches_count": 4,
+    "match_mode": "ja4_ja4s_ja4t_ja4ts",
+    "correct": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "wermgr.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s",
+    "correct": false,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "MicrosoftEdgeUpdate.exe",
+    "prediction": "svchost.exe",
+    "top_k": [
+      "svchost.exe"
+    ],
+    "matches_count": 1,
+    "match_mode": "ja4_ja4s_ja4t",
+    "correct": false,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "MpDefenderCoreService.exe",
+    "prediction": "explorer.exe",
+    "top_k": [
+      "explorer.exe",
+      "OfficeC2RClient.exe",
+      "M365Copilot.exe"
+    ],
+    "matches_count": 3,
+    "match_mode": "ja4_ja4t",
+    "correct": false,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  }
+]

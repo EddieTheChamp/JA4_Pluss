@@ -36,3 +36,6 @@ Dictionary/Visualization/confusion_matrix_Dictionary_(Egenlagd).png
 Dictionary/Visualization/prototype_predictions.png
 Dictionary/Custom_DB/egenlagd_correlated_db.json
 .Custom_Database
+Modeller/results/tsne_categories.png
+Modeller/data/models/ja4_rf.pkl
+Modeller/data/models/ja4+_db.json
