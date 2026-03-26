@@ -1,0 +1,20 @@
+[eval_dictionary] FoxIO DB loaded: 270630 raw entries
+  JA4: 1424 unique fingerprint values indexed
+  JA4S: 4 unique fingerprint values indexed
+  JA4T: 14 unique fingerprint values indexed
+  JA4TS: 0 unique fingerprint values indexed
+[database_lookup] Loaded 1501 records from complete_custom_db.json
+[eval_dictionary] Evaluating 303 test records across 4 fingerprint types...
+
+=====================================================
+      Dictionary Evaluation � per fingerprint type   
+=====================================================
+Fingerprint    Unik match     Kollisjon        Ukjent
+-----------------------------------------------------
+JA4             0 (  0.0%)    263 ( 86.8%)     40 ( 13.2%)
+JA4S            0 (  0.0%)     49 ( 16.2%)    254 ( 83.8%)
+JA4T           35 ( 11.6%)      0 (  0.0%)    268 ( 88.4%)
+JA4TS           0 (  0.0%)      0 (  0.0%)    303 (100.0%)
+=====================================================
+
+[eval_dictionary] Chart saved -> C:\Users\Edvin Aakre\.gemini\antigravity\scratch\Dictionary\Modeller\results\dictionary_fingerprint_evaluation.png

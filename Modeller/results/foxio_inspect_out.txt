@@ -1,0 +1,27 @@
+All unique keys: ['application', 'certificate_authority', 'device', 'ja4_fingerprint', 'ja4_fingerprint_string', 'ja4h_fingerprint', 'ja4s_fingerprint', 'ja4t_fingerprint', 'ja4ts_fingerprint', 'ja4tscan_fingerprint', 'ja4x_fingerprint', 'library', 'notes', 'os', 'user_agent_string', 'verified']
+
+  application: 2777 non-empty
+  certificate_authority: 0 non-empty
+  device: 220 non-empty
+  ja4_fingerprint: 270596 non-empty
+  ja4_fingerprint_string: 270576 non-empty
+  ja4h_fingerprint: 270587 non-empty
+  ja4s_fingerprint: 8 non-empty
+  ja4t_fingerprint: 14 non-empty
+  ja4ts_fingerprint: 0 non-empty
+  ja4tscan_fingerprint: 6 non-empty
+  ja4x_fingerprint: 7 non-empty
+  library: 2 non-empty
+  notes: 2746 non-empty
+  os: 2749 non-empty
+  user_agent_string: 267837 non-empty
+  verified: 2791 non-empty
+
+First 3 records:
+{'application': 'Nmap', 'library': None, 'device': None, 'os': None, 'user_agent_string': None, 'certificate_authority': None, 'verified': True, 'notes': '', 'ja4_fingerprint': None, 'ja4_fingerprint_string': None, 'ja4s_fingerprint': None, 'ja4h_fingerprint': None, 'ja4x_fingerprint': None, 'ja4t_fingerprint': '1024_2_1460_00', 'ja4ts_fingerprint': None, 'ja4tscan_fingerprint': None}
+{'application': None, 'library': None, 'device': None, 'os': None, 'user_agent_string': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'certificate_authority': None, 'verified': False, 'notes': None, 'ja4_fingerprint': 't13d1517h2_8daaf6152771_b0da82dd1658', 'ja4_fingerprint_string': 't13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,4469,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601', 'ja4s_fingerprint': None, 'ja4h_fingerprint': 'ge11cn20enus_60ca1bd65281_ac95b44401d9_8df6a44f726c', 'ja4x_fingerprint': None, 'ja4t_fingerprint': None, 'ja4ts_fingerprint': None, 'ja4tscan_fingerprint': None}
+{'application': None, 'library': 'Python', 'device': None, 'os': None, 'user_agent_string': None, 'certificate_authority': None, 'verified': True, 'notes': '', 'ja4_fingerprint': 't13i181000_85036bcba153_d41ae481755e', 'ja4_fingerprint_string': None, 'ja4s_fingerprint': None, 'ja4h_fingerprint': None, 'ja4x_fingerprint': None, 'ja4t_fingerprint': None, 'ja4ts_fingerprint': None, 'ja4tscan_fingerprint': None}
+
+JA4-related keys: ['ja4_fingerprint_string', 'ja4h_fingerprint', 'ja4t_fingerprint', 'ja4x_fingerprint', 'ja4tscan_fingerprint', 'ja4ts_fingerprint', 'ja4s_fingerprint', 'ja4_fingerprint']
+
+First record with ja4_fingerprint/ja4: {'application': None, 'library': None, 'device': None, 'os': None, 'user_agent_string': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'certificate_authority': None, 'verified': False, 'notes': None, 'ja4_fingerprint': 't13d1517h2_8daaf6152771_b0da82dd1658', 'ja4_fingerprint_string': 't13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,4469,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601', 'ja4s_fingerprint': None, 'ja4h_fingerprint': 'ge11cn20enus_60ca1bd65281_ac95b44401d9_8df6a44f726c', 'ja4x_fingerprint': None, 'ja4t_fingerprint': None, 'ja4ts_fingerprint': None, 'ja4tscan_fingerprint': None}
