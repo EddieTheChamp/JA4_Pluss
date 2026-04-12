@@ -1,0 +1,5759 @@
+[
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "msedgewebview2.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedgewebview2.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedgewebview2.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "OfficeC2RClient.exe",
+      "explorer.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d860700_e18388e7f3a3_4446390ac224"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 74.0% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "explorer.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "explorer.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "explorer.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "Unknown",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: microsoft_office.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "explorer.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "WINWORD.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "WINWORD.EXE",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "WINWORD.EXE",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "pwsh.exe",
+    "true_cat": "system",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_89322cc15493"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 74.0% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d180800_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "OUTLOOK.EXE",
+    "true_cat": "microsoft_office",
+    "pred_app": "Unknown",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: microsoft_office.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "Code.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Code.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1718h2_5b57614c22b0_e7cacf613b58"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1716h1_5b57614c22b0_e6d2851837fd"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1411h2_c866b44c5a26_810e2f290f6f"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_e6dcd7ae0a9e"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "firefox.exe",
+    "true_cat": "browser",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "Signal.exe",
+    "true_cat": "messaging",
+    "pred_app": "Signal.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Signal.exe",
+      "ms-teams.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d0307h1_55b375c5d22e_3df4dd8a7a2a"
+  },
+  {
+    "true_app": "Signal.exe",
+    "true_cat": "messaging",
+    "pred_app": "Signal.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Signal.exe",
+      "ms-teams.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d181000_5d04281c6031_78e6aca7449b"
+  },
+  {
+    "true_app": "Signal.exe",
+    "true_cat": "messaging",
+    "pred_app": "Signal.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Signal.exe",
+      "ms-teams.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d0307h1_55b375c5d22e_3df4dd8a7a2a"
+  },
+  {
+    "true_app": "Signal.exe",
+    "true_cat": "messaging",
+    "pred_app": "Signal.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Signal.exe",
+      "ms-teams.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d181000_5d04281c6031_78e6aca7449b"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "microsoft_office",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: microsoft_office.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d2013h2_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "svchost.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "OneDrive.exe",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 4 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "msedge.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedge.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 4 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "msedge.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedge.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "msedge.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedge.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "msedge.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedge.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe",
+      "Code.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 60.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 4 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "msedge.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "msedge.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "msedge.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 3 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "<unknown process>",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "<unknown process>",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t12d1809h2_4b22cbed5bed_7af1ed941c26"
+  },
+  {
+    "true_app": "<unknown process>",
+    "true_cat": "system",
+    "pred_app": "firefox.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "firefox.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1717h2_5b57614c22b0_3cbfd9057e0d"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 4 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "Code.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 2 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "browser",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "low",
+    "source": "category_fallback_local",
+    "reasoning": "Application ambiguous across 4 candidates but all share category: browser.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "chrome.exe",
+    "true_cat": "browser",
+    "pred_app": "chrome.exe",
+    "pred_cat": "browser",
+    "top_k": [
+      "chrome.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Discord.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Discord.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Discord.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Discord.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Discord.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Discord.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1516h2_8daaf6152771_d8a2da3f94cd"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Discord.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Discord.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1517h2_8daaf6152771_b6f405a00624"
+  },
+  {
+    "true_app": "Discord.exe",
+    "true_cat": "messaging",
+    "pred_app": "Discord.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "Discord.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "svchost.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d1515h1_8daaf6152771_0a20fe35d3a5"
+  },
+  {
+    "true_app": "M365Copilot.exe",
+    "true_cat": "microsoft_office",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "OneDrive.Sync.Service.exe",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "JottaUpdate.exe",
+    "true_cat": "system",
+    "pred_app": "jottad.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "jottad.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t13d141000_cbb2034c60b8_e7c285222651"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "Discord.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 2 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 78.5% confidence.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d180700_4b22cbed5bed_2dae41c691ec"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "firefox.exe",
+      "SLIVER_HTTPS.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t10i010000_7550e2da7b7a_000000000000"
+  },
+  {
+    "true_app": "ms-teams.exe",
+    "true_cat": "messaging",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE",
+      "explorer.exe"
+    ],
+    "confidence": "medium",
+    "source": "ambiguous_resolved_by_rf",
+    "reasoning": "Egenlagd returned 4 candidates via ja4_ja4s_ja4t_ja4ts. RF resolved to ms-teams.exe with 60.1% confidence.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t13d201200_2b729b4bf6f3_e24568c0d440"
+  },
+  {
+    "true_app": "jottad.exe",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d1411h2_cbb2034c60b8_e7c285222651"
+  },
+  {
+    "true_app": "tailscaled.exe",
+    "true_cat": "system",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d0312h2_55b375c5d22e_4a12575e92d6"
+  },
+  {
+    "true_app": "FileCoAuth.exe",
+    "true_cat": "microsoft_office",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "chrome.exe",
+      "WINWORD.EXE"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13d201300_2b729b4bf6f3_1ea369dc5faa"
+  },
+  {
+    "true_app": "SLIVER_BEACON_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_BEACON_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "OfficeC2RClient.exe",
+    "true_cat": "microsoft_office",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "OfficeC2RClient.exe",
+      "explorer.exe",
+      "firefox.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 67.0% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "explorer.exe",
+    "true_cat": "system",
+    "pred_app": "explorer.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "explorer.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "OfficeC2RClient.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "backgroundTaskHost.exe",
+    "true_cat": "system",
+    "pred_app": "backgroundTaskHost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "backgroundTaskHost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_BEACON_MTLS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_BEACON_MTLS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "smartscreen.exe",
+    "true_cat": "security",
+    "pred_app": "smartscreen.exe",
+    "pred_cat": "security",
+    "top_k": [
+      "smartscreen.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t_ja4ts.",
+    "correct_app": true,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "SLIVER_HTTPS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "MsMpEng.exe",
+    "true_cat": "security",
+    "pred_app": "Unknown",
+    "pred_cat": "unknown",
+    "top_k": [
+      "Unknown",
+      "ms-teams.exe",
+      "Signal.exe",
+      "svchost.exe",
+      "firefox.exe"
+    ],
+    "confidence": "none",
+    "source": "unknown",
+    "reasoning": "No classifier produced enough evidence to classify this observation.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "SLIVER_MTLS.exe",
+    "true_cat": "malware",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "SLIVER_HTTPS.exe",
+      "svchost.exe",
+      "chrome.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 69.5% confidence. FoxIO provided supporting evidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t13i131000_f57a46bbacb6_e5728521abd4"
+  },
+  {
+    "true_app": "wermgr.exe",
+    "true_cat": "system",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "chrome.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s.",
+    "correct_app": false,
+    "correct_cat": true,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "MicrosoftEdgeUpdate.exe",
+    "true_cat": "browser",
+    "pred_app": "svchost.exe",
+    "pred_cat": "system",
+    "top_k": [
+      "svchost.exe",
+      "ms-teams.exe",
+      "Signal.exe",
+      "firefox.exe",
+      "msedge.exe"
+    ],
+    "confidence": "high",
+    "source": "egenlagd_exact",
+    "reasoning": "Unique Egenlagd exact match via ja4_ja4s_ja4t.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d1909h2_d83cc789557e_7af1ed941c26"
+  },
+  {
+    "true_app": "MpDefenderCoreService.exe",
+    "true_cat": "security",
+    "pred_app": "ms-teams.exe",
+    "pred_cat": "messaging",
+    "top_k": [
+      "ms-teams.exe",
+      "Signal.exe",
+      "explorer.exe",
+      "OfficeC2RClient.exe",
+      "firefox.exe"
+    ],
+    "confidence": "medium",
+    "source": "random_forest",
+    "reasoning": "No strong local match — RF predicts ms-teams.exe with 64.5% confidence.",
+    "correct_app": false,
+    "correct_cat": false,
+    "ja4": "t12d190800_d83cc789557e_7af1ed941c26"
+  }
+]
