@@ -11,17 +11,18 @@ export {
   option JA4S_enabled:   bool = T;
   option JA4S_raw:   bool = T;
 
-  option JA4H_enabled:   bool = T;
+  option JA4H_enabled:   bool = F;
   option JA4H_raw:   bool = F;
 
-  option JA4L_enabled:   bool = T;
+  option JA4L_enabled:   bool = F;
 
-  option JA4SSH_enabled: bool = T;
+  option JA4SSH_enabled: bool = F;
 
   option JA4T_enabled: bool = T;
   option JA4TS_enabled: bool = T;
 
   option JA4X_enabled:   bool = F;
 
-  option JA4D_enabled:  bool = T;
+  option JA4D_enabled:  bool = F;
 }
+
