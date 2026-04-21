@@ -11,8 +11,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import database_lookup
-from pipeline import classify
+from pipeline_model import database_lookup
+from pipeline_model.pipeline import classify
 
 _ROOT = Path(__file__).resolve().parent
 RESULTS_DIR = _ROOT / "results"

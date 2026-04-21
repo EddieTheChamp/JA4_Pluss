@@ -15,8 +15,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-import database_lookup
-from models import DatabaseRecord
+from pipeline_model import database_lookup
+from pipeline_model.models import DatabaseRecord
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 _ROOT = Path(__file__).resolve().parent  # Modeller/

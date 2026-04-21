@@ -28,7 +28,7 @@ import numpy as np
 _ROOT = Path(__file__).resolve().parent        # Modeller/
 sys.path.insert(0, str(_ROOT))
 
-import database_lookup
+from pipeline_model import database_lookup
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 FOXIO_DB_PATH = _ROOT / "data" / "models" / "ja4+_db.json"

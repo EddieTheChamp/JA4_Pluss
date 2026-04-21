@@ -22,8 +22,8 @@ except ImportError as _e:
     _ML_OK = False
     _ML_ERROR = str(_e)
 
-import database_lookup
-import ja4_parser
+from pipeline_model import database_lookup
+from pipeline_model import ja4_parser
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 _ROOT = Path(__file__).resolve().parent  # Modeller/
@@ -105,7 +105,7 @@ def load_model(path: Path):
 
 def predict(bundle, record) -> tuple[str, list[str], int]:
     """Predict application for one record. Returns (prediction, top_k_apps, matches_count)."""
-    from models import Observation
+    from pipeline_model.models import Observation
     obs = Observation(
         observation_id="eval",
         ja4=record.ja4, ja4s=record.ja4s,
